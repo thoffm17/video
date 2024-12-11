@@ -5,20 +5,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Video with Text Overlay</title>
     <style>
-      
+     
       body{
-        position:relative;
+        position:absolute;
         background-color:black;
-        font-family: "Oswald", sans-serif;
-        font-size:100;
+        
       }
     </style>
     <style>
       .overlayText {
-        position:absolute;
-        top: 130;
-        left: 200;
+        position:fixed;
+        Left: 250;
         color: hsl(182, 11%, 31%);
+        font-family: "Oswald", sans-serif;
+        font-size:100;
       }
      
     </style>
@@ -32,7 +32,7 @@
   <body> 
    <center>
      <a href="https://thoffm17.github.io/actual-video/"</a>
-    <p class="overlayText">time is elastic</p>
+    <p class="overlayText">time is elastic</p> 
    <video id="video" autoplayloop src="IMG_4928 (3).mov" style="width:1000;"height=700 </video>
   </center>
  
